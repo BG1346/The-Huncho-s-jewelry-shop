@@ -1,0 +1,26 @@
+html 
+{
+	background-color : black;
+	text-decoration : none;
+	font-family : "Papyrus", seirf;
+	color : white;
+}
+a 
+{
+	text-decoration : none;
+	color : white;
+}
+
+#버튼 
+{
+	background-color : black;
+	color : white;
+	margin : 10px;
+}
+#main 
+{
+	margin : auto;
+	width : 1300px;
+}
+
+

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link type="text/css" rel="stylesheet" href="Shared.css">
+	<style>
+		#main {
+			background-image : url('image/intro.jpg');
+			height : 700px;
+		}
+		#title 
+		{
+		text-align : center;
+		border-top : 5px solid white;
+		border-bottom : 5px solid white;	
+		text-decoration : none;
+		font-size : 1.5em;
+		}
+		#titlediv {
+			position : relative;
+			left : 830px;
+			top : 30px;
+			border-top : 5px solid white;
+			border-bottom : 5px solid white;
+			width : 350px;
+			height : 200px;
+		}
+		footer {
+			position : relative;
+			top : 170px;
+		}
+		#menu {
+			position : relative;
+			top : 90px;
+			left : 900px;
+			list-style-image:url('image/diamond.jpg');
+			}
+	
+		#introduction {
+			text-decoration : none;
+			font-family : "Papyrus", serif;
+			font-size : xx-large ;
+			font-weight:bold;
+			line-height : 2em;
+			color : white;
+		}
+		#introduction:hover {
+			text-decoration : underline;
+			text-shadow : 5px 5px 5px #000000;
+		}		
+		li:hover 
+		{
+			color : white;
+			background-color : black;
+		}
+	</style>
+	<script>
+		localStorage.login = false;
+	</script>
+	
+</head>		
+<body>
+	<div id ="main">
+		<div id="titlediv">
+			<a href="mainPage.jsp" target="_self" ; id = "title"><h2>THE HUNCHO's<br>         JEWERLY</h2></a>
+		</div>
+		<ul id="menu">
+			<a href = "mainPage.jsp" id = "introduction"><li>Home</li></a>
+			<a href = "" id = "introduction" onclick = "get()"><li>New Products</li></a>
+			<a href = "" id = "introduction" onclick = "get()"><li>Event</li></a>
+			<a href = "" id = "introduction" onclick = "get()"><li>Sign in</li></a>
+		</ul>
+		<footer>
+			copyright 2018, All right reserved. Deisgned By Bong Geun Shin
+		</footer>
+	</div>
+	<script>
+			function get() {
+				var val = "It's in ready";
+				alert(val);
+			}
+		</script>
+	
+	
+</body>
+</html>
